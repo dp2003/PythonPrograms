@@ -1,0 +1,37 @@
+class Parent():
+    # Constructor
+
+    def __init__(self):
+
+        self.value = "Inside Parent"          
+
+    # Parent's show method
+
+    def show(self):
+
+        print(self.value)          
+
+# Defining child class
+
+class Child(Parent):
+
+      # Child Constructor
+
+    def __init__(self):
+
+        self.value = "Inside Child"          
+
+    # Child's show method
+
+    def show(self):
+
+         print(self.value)         
+
+# Testing Code
+
+ob1 = Parent()
+
+ob2 = Child()
+
+ob1.show()
+ob2.show()
